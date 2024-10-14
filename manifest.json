@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "GA Period Navigator",
+  "version": "1.0",
+  "description": "Adds navigation buttons to Google Analytics engagement page for easy date period navigation",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://analytics.google.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}

@@ -1,0 +1,38 @@
+
+/* Apply flex layout to the date range picker container */
+.date-range-picker-v2 {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  align-items: center !important;
+}
+
+/* Navigation buttons container */
+.ga-period-nav-buttons {
+  display: inline-flex;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+/* Base button styles */
+.ga-nav-button {
+  padding: 2px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  opacity: 1;
+  border-radius: 4px;
+  color: #444;
+}
+
+/* Button hover effect */
+.ga-nav-button:hover {
+  opacity: 0.7;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Previous button specific styles */
+#ga-nav-prev {
+  margin-right: 4px;
+}
